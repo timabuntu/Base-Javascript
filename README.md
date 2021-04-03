@@ -87,7 +87,30 @@ Curso Livre da Rocketseat
 ```
 [Voltar ao Índice](#indice)
 
----
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Curso JavaScript - Rocketseat</title>
+</head>
+
+<body>
+
+  <script>
+    let x = 10, y = 5;
+
+    let resultado = x % y;
+
+    x += 3;
+
+    console.log(resultado);
+    console.log(x);
+  </script>
+</body>
+
+</html>
+```
 
 
 ## <a name="parte4">4 - Operações matemáticas</a>
