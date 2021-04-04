@@ -87,6 +87,9 @@ Curso Livre da Rocketseat
 ```
 [Voltar ao Índice](#indice)
 
+---
+
+## <a name="parte4">4 - Operações matemáticas</a>
 ```javascript
 <!DOCTYPE html>
 <html lang="en">
@@ -113,18 +116,33 @@ Curso Livre da Rocketseat
 ```
 
 
-## <a name="parte4">4 - Operações matemáticas</a>
-
-
-
 [Voltar ao Índice](#indice)
 
 ---
-
-
 ## <a name="parte5">5 - Funções</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Curso JavaScript - Rocketseat</title>
+</head>
+
+<body>
+
+  <script>
+    function soma(numero1, numero2) {
+      let resultado = numero1 + numero2;
+      return resultado;
+    }
+    var resultado = soma(10, 200);
+    console.log(resultado);
+  </script>
+</body>
+
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
