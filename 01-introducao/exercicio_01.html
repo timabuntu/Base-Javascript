@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Curso JavaScript - Rocketseat</title>
+</head>
+
+<body>
+
+  <script>
+
+    let endereco = {
+      rua: "Fernando Monte",
+      numero: 16,
+      bairro: "Parque Manchester",
+      cidade: "Sorocaba",
+      uf: "SP"
+    };
+    function formatadorEndereco(end) {
+      return "O usuário mora em " + end.cidade + " / " + end.uf + ", bairro " + end.bairro + ", na rua " + end.rua + " com nº " + end.numero + "."
+      // O usuário mora em Sorocaba / SP, bairro Parque Manchester , na rua "Fernando Monte" com nº 16.
+    }
+    console.log(formatadorEndereco(endereco));
+  </script>
+</body>
+
+</html>
