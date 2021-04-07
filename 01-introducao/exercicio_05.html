@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Curso JavaScript - Rocketseat</title>
+</head>
+
+<body>
+
+
+  Dado o seguinte vetor de objetos:
+
+  Escreva uma função que produza o seguinte resultado:
+
+  ```
+  O Diego possui as habilidades: Javascript, ReactJS, Redux
+  O Thiago possui as habilidades: HTML, CSS, Javascript
+  ```
+
+  Dica: Para percorrer um vetor você deve utilizar a sintaxe for...of e para unir valores de um array com um separador
+  utilize o join.
+
+
+  <script>
+
+    let usuarios = [
+      {
+        nome: "Diego",
+        habilidades: ["Javascript", "ReactJS", "Redux"]
+      },
+      {
+        nome: "Thiago",
+        habilidades: ["HTML", "CSS", "Javascript"]
+      }
+    ];
+    function exibeHabilidades(usuarios) {
+      for (usuario of usuarios) {
+        console.log(
+          "O " + usuario.nome + " possui as habilidades: " + usuario.habilidades.join(", "));
+      }
+    }
+    console.log(exibeHabilidades(usuarios));
+
+  </script>
+</body>
+
+</html>
